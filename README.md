@@ -11,17 +11,17 @@ The data consist of 15 columns. The following tells you what they mean. Note tha
 | source       | source (original) sentence                             | 
 | A            | source split into two                                  | 
 | B            | source split into three                                | 
-| AxB_A        | #votes for A in A vs. B                               | 
-| AxB_B        | #votes for B in A vs. B                              | 
-| AxB_NotSure  | #votes (avg) for 'not sure' in A vs. B                | 
-| A_fluency    | combined ratings (1-5) people gave on the fluency of A | 
-| B_fluency    | combined ratings (1-5) people gave on the fluency of B | 
-| SxA_S        | #votes for S in S vs. A                               | 
-| SxA_A        | #votes for A in S vs. A                               | 
-| SxA_NotSure  | #votes for 'not sure' in S vs. A                      | 
-| SxB_S        | #votes for S in S vs. B                               | 
-| SxB_B        | #votes for B in S vs. B                               | 
-| SxB_NotSure  | #votes for 'not sure' in S vs. B                      | 
+| AxB_A        | #votes for A in A vs. B  (max:7)                             | 
+| AxB_B        | #votes for B in A vs. B  (max:7)                            | 
+| AxB_NotSure  | #votes for 'not sure' in A vs. B  (max:7)            | 
+| A_fluency    | combined ratings (1-5) people gave on the fluency of A (max:35)| 
+| B_fluency    | combined ratings (1-5) people gave on the fluency of B (max:35) | 
+| SxA_S        | #votes for S in S vs. A  (max:7)                               | 
+| SxA_A        | #votes for A in S vs. A  (max:7)                               | 
+| SxA_NotSure  | #votes for 'not sure' in S vs. A  (max:7)                      | 
+| SxB_S        | #votes for S in S vs. B  (max:7)                               | 
+| SxB_B        | #votes for B in S vs. B  (max:7)                               | 
+| SxB_NotSure  | #votes for 'not sure' in S vs. B  (max:7)                      | 
 
 
 
