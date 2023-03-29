@@ -1,12 +1,12 @@
 # Fewer Splits are Better
 
-This respository contains responses collected from human participants to questions regarding the readability of split sentences, which were referred to in the paper [**The Fewer Splits are Better: Deconstructing Readability in Sentence Splitting**](https://aclanthology.org/2022.tsar-1.1/).
+This respository contains responses collected from human participants to questions regarding the readability of split sentences, which were referred to in the paper: [**The Fewer Splits are Better: Deconstructing Readability in Sentence Splitting**](https://aclanthology.org/2022.tsar-1.1/).
 
 The data consist of 15 columns. The following tells you what they mean. Note that each row represents a single task assigned to exactly seven people. 
 
 
 | column  name | description                                            | 
-| :----------: | :----------------------------------------------------: | 
+| :----------: | :---------------------------------------------------- | 
 | BART         | How A is generated (True if BART/False if Human)              |
 | source       | source (original) sentence                             | 
 | A            | source split into two                                  | 
