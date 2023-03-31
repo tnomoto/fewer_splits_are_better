@@ -8,9 +8,9 @@ The data consist of 15 columns. The following tells you what they mean. Note tha
 | column  name | description                                            | 
 | :----------: | :---------------------------------------------------- | 
 | BART         | How A is generated (True if BART/False if Human)              |
-| source       | source (original) sentence                             | 
-| A            | source split into two                                  | 
-| B            | source split into three                                | 
+| source       | source (original) sentence  (string)                           | 
+| A            | source split into two    (string)                             | 
+| B            | source split into three   (string)                            | 
 | AxB_A        | #votes for A in A vs. B  (max:7)                             | 
 | AxB_B        | #votes for B in A vs. B  (max:7)                            | 
 | AxB_NotSure  | #votes for 'not sure' in A vs. B  (max:7)            | 
